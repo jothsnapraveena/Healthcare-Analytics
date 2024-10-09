@@ -14,6 +14,7 @@ This project aims to analyze healthcare data from various perspectives, includin
 I  used Postgre SQL to perform advanced queries involving CTEs, window functions, and views to model real-world use cases in healthcare analytics.
 
 ### Dataset
+The dataset used in this healthcare analytics project is synthetic data generated from Synthea, an open-source synthetic patient generator. This data was obtained from DataWizardry https://datawizardry.academy ensuring a realistic and comprehensive representation of healthcare scenarios for analysis. Synthetic data allows for the exploration of healthcare analytics without compromising patient privacy or confidentiality.
 
 The dataset consists of four tables:
 
@@ -21,6 +22,9 @@ The dataset consists of four tables:
 - Conditions: Captures medical conditions diagnosed during encounters.
 - Encounters: Records healthcare visits, including details on costs and insurance.
 - Immunizations: Logs immunization events, including type and patient details.
+
+Note on Data Availability
+The encounters.txt file contains a significant amount of data and exceeds GitHub's file size limit, preventing it from being uploaded directly to the repository. For those interested in this data, it can be accessed from Data Wizardry, which provides comprehensive resources for obtaining healthcare-related synthetic data.
 
 ### Analysis Goals
 
